@@ -1,0 +1,6 @@
+/Users/tarikkrestalica/Projects/projectFinal/projectFinal/bin/Debug/projectFinal.exe
+/Users/tarikkrestalica/Projects/projectFinal/projectFinal/bin/Debug/projectFinal.pdb
+/Users/tarikkrestalica/Projects/projectFinal/projectFinal/obj/Debug/projectFinal.csproj.AssemblyReference.cache
+/Users/tarikkrestalica/Projects/projectFinal/projectFinal/obj/Debug/projectFinal.csproj.CoreCompileInputs.cache
+/Users/tarikkrestalica/Projects/projectFinal/projectFinal/obj/Debug/projectFinal.exe
+/Users/tarikkrestalica/Projects/projectFinal/projectFinal/obj/Debug/projectFinal.pdb

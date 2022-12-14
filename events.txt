@@ -1,0 +1,97 @@
+﻿Event file format version 1.0.0
+# Event name
+Walking down the road
+# Description
+There is a road in front of you.
+# Choices
+3
+# Choice 1
+Continue walking down the road.
+# Response
+You keep walking.
+# Reward
+
+# Choice 2
+Pick up some dirt.
+# Response lines
+2
+You reach down and scoop up a fistful of dirt.  You carefully pour it into your backpack.
+Now your backpack is dirty.
+# Reward
+dirt
+# Choice 3
+Run back to mommy.
+# Response
+
+# Reward
+doneAdventure
+# End of event
+#
+#
+# Event name
+Skating on Ice
+# Description
+You encounter a dangerous rink with tons of fishing holes
+# Choices
+4
+# Choice 1
+Stay and wait until later
+# Response
+You stay and camp overnight
+# Reward
+
+# Choice 2
+Skate Anyway
+# Response lines
+2
+The fishermen are bothered by the skater's actions and eventually beat you up
+with minimal frostbite. 
+damage
+# Choice 3
+Join In
+# Response
+You drill a hole and sit back. You eventually get your own rod, and a fish for free
+2
+fish
+rod
+# Choice 4
+Go to another rink
+2
+You find another rink meeting your skills. However, a group of 5 sharks come in one by one,
+and pound the rink. Safety is met, only to collide head-first into bricks.
+kill
+# End of Event
+#
+# Event name
+A goblin
+2
+A goblin waits in your path.
+He looks angry and wields a pointy stick!
+3
+Attack!
+2
+You attack with your sword while he rushes toward you.
+As the dust settles, you look down at his body and find some gold.
+2
+gold
+xp
+Wait...
+The goblin loses interest in you and walks away.
+
+Run away!
+You turn tail and beat feet back down the path.
+doneAdventure
+# End of event
+# Event name
+A river
+You see a small river across your path.
+2
+Walk like a man right through the river.
+2
+The river is stronger than you thought and it bumps you around against some pointy rocks.  Ouch!
+Also, your pants are wet.
+damage
+Look for a safe crossing.
+You step lithely across some stones and arrive safely on the other side.
+
+# End of event
