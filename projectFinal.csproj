@@ -36,6 +36,7 @@
     <Compile Include="Tavern.cs" />
     <Compile Include="AdventureEvent.cs" />
     <Compile Include="Adventure.cs" />
+    <Compile Include="CombatEvent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="events.txt" />

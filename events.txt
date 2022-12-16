@@ -63,24 +63,28 @@ kill
 # End of Event
 #
 # Event name
-A goblin
+Goblin
 2
 A goblin waits in your path.
 He looks angry and wields a pointy stick!
+# Choices
 3
+# Choice 1
 Attack!
-2
-You attack with your sword while he rushes toward you.
-As the dust settles, you look down at his body and find some gold.
-2
-gold
-xp
+# Response
+Welcome to Battle!
+# Reward
+battle
+# Choice 2
 Wait...
 The goblin loses interest in you and walks away.
+# Reward
 
+# Choice 3
 Run away!
 You turn tail and beat feet back down the path.
 doneAdventure
+#
 # End of event
 # Event name
 A river
@@ -90,8 +94,10 @@ Walk like a man right through the river.
 2
 The river is stronger than you thought and it bumps you around against some pointy rocks.  Ouch!
 Also, your pants are wet.
+# Reward
 damage
 Look for a safe crossing.
 You step lithely across some stones and arrive safely on the other side.
+# Reward
 
 # End of event

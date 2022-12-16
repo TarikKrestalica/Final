@@ -5,8 +5,6 @@ namespace ConsoleQuest
 {
     class Program
     {
-        private List<AdventureEvent> events = new List<AdventureEvent>();
-
         static void Main(string[] args)
         {
             // Create the Tavern, have the tavern display the heroes

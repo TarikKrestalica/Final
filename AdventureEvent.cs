@@ -7,9 +7,10 @@ namespace ConsoleQuest
     class AdventureEvent
     {
         // Keep track of event state
-        private bool doneAdventure = false;   
+        private bool doneAdventure = false;
 
-        // Every event has its own description, series of choices, responses and rewards
+        // Every event has its own name, description, series of choices, responses and rewards
+        string name;
         string description = "An Event";
         List<string> choices = new List<string>();
         Dictionary<int, string> responses = new Dictionary<int, string>();
@@ -34,6 +35,7 @@ namespace ConsoleQuest
             // Get the event name
             string line;
             line = ReadNextLine(reader);
+            name = line;
 
             // Get description, check if I have more than one part
             int number;
@@ -171,6 +173,22 @@ namespace ConsoleQuest
                     case "kill":
                         hero.TakeDamage(10000);
                         Console.WriteLine(hero.name + " has been knocked out!");
+                        break;
+                    // Does the user encounter the enemy?
+                    case "battle":
+                        // Create, Start the Battle
+                        CombatEvent combatEvent = new CombatEvent(hero, name);
+                        combatEvent.InitiateBattle();
+                        // If the hero wins, add the gold and xp as rewards
+                        if (combatEvent.heroWin)
+                        {
+                            Console.WriteLine($"Congratulations {hero.name}! 1 gold and xp will be awarded to you!");
+                            Console.ReadLine();
+                            rewardList.Add("gold");
+                            rewardList.Add("xp");
+                        }
+                        else
+                            Console.WriteLine("Game Over!");
                         break;
                     // If I obtain gold, indicate it on my adventure(separate game sessions)
                     case "gold":
